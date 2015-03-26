@@ -5,14 +5,14 @@ Uploading usign spring framework. Enjoy.
 Basicly instalation.
 
 mvc-config.xml
-<code>
+```html
 <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
 	<property name="maxUploadSize" value="100000" />
 </bean>
-</code>
+```
 
 Maven: pom.xml
-<code>
+```html
 <!-- Apache Commons FileUpload -->
 <dependency>
 	<groupId>commons-fileupload</groupId>
@@ -26,7 +26,7 @@ Maven: pom.xml
 	<artifactId>commons-io</artifactId>
 	<version>2.4</version>
 </dependency>
-</code>
+```
 
 For others functions see on the classes.
 
